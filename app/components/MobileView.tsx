@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 export default function MobileView() {
   return (
@@ -175,13 +177,13 @@ export default function MobileView() {
           Meet Daiki
         </h2>
 
-        <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center mb-6">
+        <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center mb-6 overflow-hidden">
           <Image
-            src="/daiki_icon.jpg"
+            src="/daiki_icon.png"
             alt="Daiki Profile"
-            width={150}
-            height={150}
-            className="object-contain"
+            width={1778}
+            height={1654}
+            className="object-cover w-full h-full scale-110"
           />
         </div>
 
@@ -192,42 +194,42 @@ export default function MobileView() {
           helping others discover the elegance and joy of algorithmic thinking.
         </p>
 
-        <div className="space-y-3">
+        <div className="flex gap-6 justify-center">
           <a
             href="https://www.linkedin.com/in/kudojp/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-between py-3 border-b border-[#e8e3db] dark:border-[#2d2a26] text-[#5c5653] dark:text-[#a39c94]"
+            className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+            aria-label="LinkedIn Profile"
           >
-            <span className="text-sm font-medium">LinkedIn Profile</span>
-            <span className="text-sm">→</span>
+            <FaLinkedin size={32} />
           </a>
           <a
             href="https://leetcode.com/u/kudojp/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-between py-3 border-b border-[#e8e3db] dark:border-[#2d2a26] text-[#5c5653] dark:text-[#a39c94]"
+            className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+            aria-label="LeetCode Profile"
           >
-            <span className="text-sm font-medium">LeetCode Profile</span>
-            <span className="text-sm">→</span>
+            <SiLeetcode size={32} />
           </a>
           <a
             href="https://github.com/kudojp"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-between py-3 border-b border-[#e8e3db] dark:border-[#2d2a26] text-[#5c5653] dark:text-[#a39c94]"
+            className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+            aria-label="GitHub Profile"
           >
-            <span className="text-sm font-medium">GitHub Profile</span>
-            <span className="text-sm">→</span>
+            <FaGithub size={32} />
           </a>
           <a
             href="https://www.youtube.com/@daiki-algo"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-between py-3 border-b border-[#e8e3db] dark:border-[#2d2a26] text-[#5c5653] dark:text-[#a39c94]"
+            className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+            aria-label="YouTube Channel"
           >
-            <span className="text-sm font-medium">YouTube Channel</span>
-            <span className="text-sm">→</span>
+            <FaYoutube size={32} />
           </a>
         </div>
       </section>

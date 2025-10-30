@@ -1,4 +1,6 @@
 import Image from "next/image";
+import { FaLinkedin, FaGithub, FaYoutube } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 export default function DesktopView() {
   return (
@@ -205,52 +207,52 @@ export default function DesktopView() {
                 abilities, and consistent effort. Daiki is committed to helping others discover the elegance and joy of
                 algorithmic thinking through curated problems and a learning approach that values deep understanding.
               </p>
-              <div className="flex flex-col gap-4">
+              <div className="flex gap-4">
                 <a
                   href="https://www.linkedin.com/in/kudojp/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors group"
+                  className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+                  aria-label="LinkedIn Profile"
                 >
-                  <span className="text-sm font-medium">LinkedIn Profile</span>
-                  <span className="text-sm">→</span>
+                  <FaLinkedin size={28} />
                 </a>
                 <a
                   href="https://leetcode.com/u/kudojp/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors group"
+                  className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+                  aria-label="LeetCode Profile"
                 >
-                  <span className="text-sm font-medium">LeetCode Profile</span>
-                  <span className="text-sm">→</span>
+                  <SiLeetcode size={28} />
                 </a>
                 <a
                   href="https://github.com/kudojp"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors group"
+                  className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+                  aria-label="GitHub Profile"
                 >
-                  <span className="text-sm font-medium">GitHub Profile</span>
-                  <span className="text-sm">→</span>
+                  <FaGithub size={28} />
                 </a>
                 <a
                   href="https://www.youtube.com/@daiki-algo"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors group"
+                  className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+                  aria-label="YouTube Channel"
                 >
-                  <span className="text-sm font-medium">YouTube Channel</span>
-                  <span className="text-sm">→</span>
+                  <FaYoutube size={28} />
                 </a>
               </div>
             </div>
-            <div className="h-96 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center">
+            <div className="h-96 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center overflow-hidden">
               <Image
-                src="/daiki_icon.jpg"
+                src="/daiki_icon.png"
                 alt="Daiki Profile"
-                width={200}
-                height={200}
-                className="object-contain"
+                width={1778}
+                height={1654}
+                className="object-cover w-full h-full scale-110"
               />
             </div>
           </div>
