@@ -131,12 +131,12 @@ export default function DesktopView() {
           </div>
 
           <div className="space-y-6">
-            {/* Let's run together */}
+            {/* Your motivating pacer */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    Let&apos;s run together
+                    Your motivating pacer
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
                     I will motivate you. I will help you keep track of your progress.
@@ -148,12 +148,12 @@ export default function DesktopView() {
               </div>
             </div>
 
-            {/* Per topic overviews */}
+            {/* Algorithm patterns distilled */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    Per topic overviews
+                    Algorithm patterns distilled
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
                     Connecting the dots.
@@ -165,15 +165,15 @@ export default function DesktopView() {
               </div>
             </div>
 
-            {/* How to spend 45 minutes like a pro */}
+            {/* The art of 45-minute coding interviews */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    How to spend 45 minutes like a pro
+                    The art of 45-minute coding interviews
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    Interview tips, Debugging tips.
+                    Time management in coding interviews, debugging tips, and strategies for success.
                   </p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
@@ -182,12 +182,12 @@ export default function DesktopView() {
               </div>
             </div>
 
-            {/* Aha! moments */}
+            {/* Curated Aha! moments */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    Aha! moments
+                    Curated Aha! moments
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
                     List of curated purely interesting questions for you.
@@ -199,12 +199,12 @@ export default function DesktopView() {
               </div>
             </div>
 
-            {/* See my growth */}
+            {/* An ever-growing coach */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    See my growth
+                    An ever-growing coach
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
                     Your coach is still growing.
