@@ -1,0 +1,277 @@
+export default function MobileView() {
+  return (
+    <div className="md:hidden min-h-screen bg-[#faf9f6] dark:bg-[#1a1816] overflow-x-hidden">
+      {/* Navigation */}
+      <nav className="border-b border-[#e8e3db] dark:border-[#2d2a26]">
+        <div className="px-5">
+          <div className="flex justify-between items-center h-14">
+            <a href="/" className="font-serif font-bold text-sm text-[#1a1816] dark:text-[#f5f3ee] tracking-tight">
+              Daiki Algo Coach
+            </a>
+            <div className="flex gap-3 items-center text-xs">
+              <a href="#features" className="text-[#5c5653] dark:text-[#a39c94]">
+                Features
+              </a>
+              <a href="#problems" className="text-[#5c5653] dark:text-[#a39c94]">
+                Problems
+              </a>
+              <a href="#coach" className="text-[#5c5653] dark:text-[#a39c94]">
+                Coach
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Hero Section */}
+      <section className="pt-10 pb-10 px-5">
+        <div>
+          <h1 className="font-serif text-2xl font-bold mb-5 text-[#1a1816] dark:text-[#f5f3ee] leading-tight tracking-tight">
+            Discover the joy of algorithms
+          </h1>
+
+          <p className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-8 leading-relaxed">
+            A thoughtful learning platform for exploring algorithmic thinking through carefully curated problems.
+          </p>
+
+          <div className="flex flex-col gap-3">
+            <button className="w-full py-3 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] font-medium text-sm">
+              Start learning
+            </button>
+            <button className="w-full py-3 text-[#5c5653] dark:text-[#a39c94] font-medium text-sm text-left">
+              Browse problems →
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section id="features" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+        <div className="mb-10">
+          <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
+            Built for learners
+          </h2>
+          <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+            Thoughtfully designed tools to support your journey.
+          </p>
+        </div>
+
+        <div className="space-y-10">
+          {/* Feature 1 */}
+          <div>
+            <div className="h-48 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm mb-4"></div>
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              Track your progress
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+              Visualize your learning journey with detailed statistics and completion rates. Celebrate milestones as you grow.
+            </p>
+          </div>
+
+          {/* Feature 2 */}
+          <div>
+            <div className="h-48 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm mb-4"></div>
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              Learn patterns
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+              Discover recurring patterns that elegantly solve entire classes of problems. Build intuition through practice.
+            </p>
+          </div>
+
+          {/* Feature 3 */}
+          <div>
+            <div className="h-48 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm mb-4"></div>
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              Guided exploration
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+              Progressive hints help you discover solutions independently without spoiling the challenge.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Problem Categories Section */}
+      <section id="problems" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+        <div className="mb-10">
+          <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
+            550+ curated problems
+          </h2>
+          <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+            Start wherever feels comfortable and progress at your own pace.
+          </p>
+        </div>
+
+        <div className="space-y-4">
+          {/* Easy */}
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+            <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-2">Easy</div>
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              Foundations
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
+              Begin with fundamentals. Arrays, strings, hash tables, and basic algorithms.
+            </p>
+            <div className="flex items-center justify-between">
+              <p className="text-xs text-[#5c5653] dark:text-[#a39c94]">200+ problems</p>
+              <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
+                Explore →
+              </button>
+            </div>
+          </div>
+
+          {/* Medium */}
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+            <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-2">Medium</div>
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              Deepening
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
+              Explore trees, graphs, and dynamic programming. Build sophisticated techniques.
+            </p>
+            <div className="flex items-center justify-between">
+              <p className="text-xs text-[#5c5653] dark:text-[#a39c94]">250+ problems</p>
+              <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
+                Explore →
+              </button>
+            </div>
+          </div>
+
+          {/* Hard */}
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+            <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-2">Hard</div>
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              Mastery
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
+              Challenge yourself with complex problems requiring deep insight and creative thinking.
+            </p>
+            <div className="flex items-center justify-between">
+              <p className="text-xs text-[#5c5653] dark:text-[#a39c94]">100+ problems</p>
+              <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
+                Explore →
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Coach Section */}
+      <section id="coach" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+        <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-3">Your coach</div>
+        <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
+          Meet Daiki
+        </h2>
+
+        <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center mb-6">
+          <span className="text-5xl text-[#5c5653] dark:text-[#a39c94]">D</span>
+        </div>
+
+        <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-6">
+          Daiki is a passionate algorithm enthusiast and a LeetCode Guardian—a prestigious badge awarded to users who
+          consistently rank in the top 5% of participants in LeetCode's weekly contests. This achievement signifies
+          exceptional skill in competitive programming and reflects years of dedicated practice. Daiki is committed to
+          helping others discover the elegance and joy of algorithmic thinking.
+        </p>
+
+        <div className="space-y-3">
+          <a
+            href="https://www.linkedin.com/in/kudojp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-between py-3 border-b border-[#e8e3db] dark:border-[#2d2a26] text-[#5c5653] dark:text-[#a39c94]"
+          >
+            <span className="text-sm font-medium">LinkedIn Profile</span>
+            <span className="text-sm">→</span>
+          </a>
+          <a
+            href="https://leetcode.com/u/kudojp/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-between py-3 border-b border-[#e8e3db] dark:border-[#2d2a26] text-[#5c5653] dark:text-[#a39c94]"
+          >
+            <span className="text-sm font-medium">LeetCode Profile</span>
+            <span className="text-sm">→</span>
+          </a>
+          <a
+            href="https://github.com/kudojp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-between py-3 border-b border-[#e8e3db] dark:border-[#2d2a26] text-[#5c5653] dark:text-[#a39c94]"
+          >
+            <span className="text-sm font-medium">GitHub Profile</span>
+            <span className="text-sm">→</span>
+          </a>
+          <a
+            href="https://www.youtube.com/@daiki-algo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-between py-3 border-b border-[#e8e3db] dark:border-[#2d2a26] text-[#5c5653] dark:text-[#a39c94]"
+          >
+            <span className="text-sm font-medium">YouTube Channel</span>
+            <span className="text-sm">→</span>
+          </a>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+        <div className="text-center">
+          <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-5 tracking-tight">
+            Begin your journey
+          </h2>
+          <p className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-8 leading-relaxed">
+            Join a community of thoughtful learners exploring the elegant world of algorithms.
+          </p>
+          <button className="w-full py-3 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] font-medium text-sm">
+            Start learning today
+          </button>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="py-10 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+        <div className="mb-8">
+          <div className="font-serif font-bold text-base text-[#1a1816] dark:text-[#f5f3ee] mb-3">
+            Daiki Algo Coach
+          </div>
+          <p className="text-[#5c5653] dark:text-[#a39c94] text-xs leading-relaxed">
+            A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-2 gap-8 mb-8">
+          <div>
+            <h4 className="text-[#1a1816] dark:text-[#f5f3ee] font-medium mb-3 text-xs">Learn</h4>
+            <ul className="space-y-2 text-[#5c5653] dark:text-[#a39c94] text-xs">
+              <li><a href="#features">Features</a></li>
+              <li><a href="#problems">Problems</a></li>
+              <li><a href="#">Learning paths</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-[#1a1816] dark:text-[#f5f3ee] font-medium mb-3 text-xs">Connect</h4>
+            <ul className="space-y-2 text-[#5c5653] dark:text-[#a39c94] text-xs">
+              <li><a href="https://www.linkedin.com/in/kudojp/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/kudojp" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="https://www.youtube.com/@daiki-algo" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="pt-6 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+          <p className="text-[#5c5653] dark:text-[#a39c94] text-xs mb-3 text-center">
+            © 2025 Daiki Algo Coach
+          </p>
+          <div className="flex gap-6 justify-center text-[#5c5653] dark:text-[#a39c94] text-xs">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
