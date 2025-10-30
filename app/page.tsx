@@ -222,6 +222,15 @@ export default function Home() {
                   <span className="text-sm font-medium">GitHub Profile</span>
                   <span className="text-sm">→</span>
                 </a>
+                <a
+                  href="https://www.youtube.com/@daiki-algo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors group"
+                >
+                  <span className="text-sm font-medium">YouTube Channel</span>
+                  <span className="text-sm">→</span>
+                </a>
               </div>
             </div>
             <div className="h-96 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center">
@@ -273,6 +282,7 @@ export default function Home() {
               <ul className="space-y-3 text-[#5c5653] dark:text-[#a39c94] text-sm">
                 <li><a href="https://www.linkedin.com/in/kudojp/" target="_blank" rel="noopener noreferrer" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">LinkedIn</a></li>
                 <li><a href="https://github.com/kudojp" target="_blank" rel="noopener noreferrer" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">GitHub</a></li>
+                <li><a href="https://www.youtube.com/@daiki-algo" target="_blank" rel="noopener noreferrer" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">YouTube</a></li>
                 <li><a href="#" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">Contact</a></li>
               </ul>
             </div>
