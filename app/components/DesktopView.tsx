@@ -118,31 +118,29 @@ export default function DesktopView() {
         </div>
       </section>
 
-      {/* Problem Categories Section */}
+      {/* Contents Section */}
       <section id="problems" className="py-32 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="max-w-5xl mx-auto">
           <div className="mb-20">
             <h2 className="font-serif text-6xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-6 tracking-tight">
-              550+ curated problems
+              Offerings
             </h2>
             <p className="text-xl text-[#5c5653] dark:text-[#a39c94] leading-relaxed max-w-2xl">
-              Start wherever feels comfortable and progress naturally at your own pace.
+              A comprehensive learning journey designed to support your growth every step of the way.
             </p>
           </div>
 
           <div className="space-y-6">
-            {/* Easy */}
+            {/* Let's run together */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
-                  <div className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-2">Easy</div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    Foundations
+                    Let&apos;s run together
                   </h3>
-                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-4">
-                    Begin with fundamentals. Arrays, strings, hash tables, and basic algorithms that form the bedrock of problem-solving.
+                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+                    I will motivate you. I will help you keep track of your progress.
                   </p>
-                  <p className="text-sm text-[#5c5653] dark:text-[#a39c94]">200+ problems</p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
                   Explore →
@@ -150,18 +148,16 @@ export default function DesktopView() {
               </div>
             </div>
 
-            {/* Medium */}
+            {/* Per topic overviews */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
-                  <div className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-2">Medium</div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    Deepening
+                    Per topic overviews
                   </h3>
-                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-4">
-                    Explore trees, graphs, and dynamic programming. Build sophisticated problem-solving techniques through practice.
+                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+                    Connecting the dots.
                   </p>
-                  <p className="text-sm text-[#5c5653] dark:text-[#a39c94]">250+ problems</p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
                   Explore →
@@ -169,18 +165,50 @@ export default function DesktopView() {
               </div>
             </div>
 
-            {/* Hard */}
+            {/* How to spend 45 minutes like a pro */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
-                  <div className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-2">Hard</div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    Mastery
+                    How to spend 45 minutes like a pro
                   </h3>
-                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-4">
-                    Challenge yourself with complex problems requiring deep insight and creative thinking. Discover elegant solutions.
+                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+                    Interview tips, Debugging tips.
                   </p>
-                  <p className="text-sm text-[#5c5653] dark:text-[#a39c94]">100+ problems</p>
+                </div>
+                <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
+                  Explore →
+                </button>
+              </div>
+            </div>
+
+            {/* Aha! moments */}
+            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
+                    Aha! moments
+                  </h3>
+                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+                    List of curated purely interesting questions for you.
+                  </p>
+                </div>
+                <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
+                  Explore →
+                </button>
+              </div>
+            </div>
+
+            {/* See my growth */}
+            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
+                    See my growth
+                  </h3>
+                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+                    Your coach is still growing.
+                  </p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
                   Explore →

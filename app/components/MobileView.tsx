@@ -105,63 +105,87 @@ export default function MobileView() {
         </div>
       </section>
 
-      {/* Problem Categories Section */}
+      {/* Contents Section */}
       <section id="problems" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="mb-10">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
-            550+ curated problems
+            Offerings
           </h2>
           <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-            Start wherever feels comfortable and progress at your own pace.
+            A comprehensive learning journey designed to support your growth every step of the way.
           </p>
         </div>
 
         <div className="space-y-4">
-          {/* Easy */}
+          {/* Let's run together */}
           <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
-            <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-2">Easy</div>
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
-              Foundations
+              Let&apos;s run together
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              Begin with fundamentals. Arrays, strings, hash tables, and basic algorithms.
+              I will motivate you. I will help you keep track of your progress.
             </p>
-            <div className="flex items-center justify-between">
-              <p className="text-xs text-[#5c5653] dark:text-[#a39c94]">200+ problems</p>
+            <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
                 Explore →
               </button>
             </div>
           </div>
 
-          {/* Medium */}
+          {/* Per topic overviews */}
           <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
-            <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-2">Medium</div>
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
-              Deepening
+              Per topic overviews
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              Explore trees, graphs, and dynamic programming. Build sophisticated techniques.
+              Connecting the dots.
             </p>
-            <div className="flex items-center justify-between">
-              <p className="text-xs text-[#5c5653] dark:text-[#a39c94]">250+ problems</p>
+            <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
                 Explore →
               </button>
             </div>
           </div>
 
-          {/* Hard */}
+          {/* How to spend 45 minutes like a pro */}
           <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
-            <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-2">Hard</div>
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
-              Mastery
+              How to spend 45 minutes like a pro
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              Challenge yourself with complex problems requiring deep insight and creative thinking.
+              Interview tips, Debugging tips.
             </p>
-            <div className="flex items-center justify-between">
-              <p className="text-xs text-[#5c5653] dark:text-[#a39c94]">100+ problems</p>
+            <div className="flex justify-end">
+              <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
+                Explore →
+              </button>
+            </div>
+          </div>
+
+          {/* Aha! moments */}
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              Aha! moments
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
+              List of curated purely interesting questions for you.
+            </p>
+            <div className="flex justify-end">
+              <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
+                Explore →
+              </button>
+            </div>
+          </div>
+
+          {/* See my growth */}
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              See my growth
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
+              Your coach is still growing.
+            </p>
+            <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
                 Explore →
               </button>
