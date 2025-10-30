@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function MobileView() {
   return (
     <div className="md:hidden min-h-screen bg-[#faf9f6] dark:bg-[#1a1816] overflow-x-hidden">
@@ -5,8 +7,17 @@ export default function MobileView() {
       <nav className="border-b border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="px-5">
           <div className="flex justify-between items-center h-14">
-            <a href="/" className="font-serif font-bold text-sm text-[#1a1816] dark:text-[#f5f3ee] tracking-tight">
-              Daiki Algo Coach
+            <a href="/" className="flex items-center gap-2">
+              <Image
+                src="/daiki_algo_coach_logo_v1.png"
+                alt="Daiki Algo Coach Logo"
+                width={24}
+                height={24}
+                className="object-contain"
+              />
+              <span className="font-serif font-bold text-sm text-[#1a1816] dark:text-[#f5f3ee] tracking-tight">
+                Daiki Algo Coach
+              </span>
             </a>
             <div className="flex gap-3 items-center text-xs">
               <a href="#features" className="text-[#5c5653] dark:text-[#a39c94]">
@@ -165,7 +176,13 @@ export default function MobileView() {
         </h2>
 
         <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center mb-6">
-          <span className="text-5xl text-[#5c5653] dark:text-[#a39c94]">D</span>
+          <Image
+            src="/daiki_algo_coach_logo_v1.png"
+            alt="Daiki Profile"
+            width={150}
+            height={150}
+            className="object-contain"
+          />
         </div>
 
         <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-6">

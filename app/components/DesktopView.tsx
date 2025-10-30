@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function DesktopView() {
   return (
     <div className="hidden md:block min-h-screen bg-[#faf9f6] dark:bg-[#1a1816]">
@@ -5,8 +7,17 @@ export default function DesktopView() {
       <nav className="border-b border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="max-w-5xl mx-auto px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <a href="/" className="font-serif font-bold text-2xl text-[#1a1816] dark:text-[#f5f3ee] tracking-tight">
-              Daiki Algo Coach
+            <a href="/" className="flex items-center gap-3">
+              <Image
+                src="/daiki_algo_coach_logo_v1.png"
+                alt="Daiki Algo Coach Logo"
+                width={40}
+                height={40}
+                className="object-contain"
+              />
+              <span className="font-serif font-bold text-2xl text-[#1a1816] dark:text-[#f5f3ee] tracking-tight">
+                Daiki Algo Coach
+              </span>
             </a>
             <div className="flex gap-10 items-center">
               <a href="#features" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
@@ -234,7 +245,13 @@ export default function DesktopView() {
               </div>
             </div>
             <div className="h-96 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center">
-              <span className="text-6xl text-[#5c5653] dark:text-[#a39c94]">D</span>
+              <Image
+                src="/daiki_algo_coach_logo_v1.png"
+                alt="Daiki Profile"
+                width={200}
+                height={200}
+                className="object-contain"
+              />
             </div>
           </div>
         </div>
