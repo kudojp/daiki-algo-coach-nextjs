@@ -9,7 +9,7 @@ export default function MobileView() {
           <div className="flex justify-between items-center h-14">
             <a href="/" className="flex items-center gap-2">
               <Image
-                src="/daiki_algo_coach_logo_v1.png"
+                src="/DAC_icon.png"
                 alt="Daiki Algo Coach Logo"
                 width={24}
                 height={24}
@@ -177,7 +177,7 @@ export default function MobileView() {
 
         <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center mb-6">
           <Image
-            src="/daiki_algo_coach_logo_v1.png"
+            src="/daiki_icon.jpg"
             alt="Daiki Profile"
             width={150}
             height={150}

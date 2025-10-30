@@ -9,7 +9,7 @@ export default function DesktopView() {
           <div className="flex justify-between items-center h-20">
             <a href="/" className="flex items-center gap-3">
               <Image
-                src="/daiki_algo_coach_logo_v1.png"
+                src="/DAC_icon.png"
                 alt="Daiki Algo Coach Logo"
                 width={40}
                 height={40}
@@ -246,7 +246,7 @@ export default function DesktopView() {
             </div>
             <div className="h-96 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center">
               <Image
-                src="/daiki_algo_coach_logo_v1.png"
+                src="/daiki_icon.jpg"
                 alt="Daiki Profile"
                 width={200}
                 height={200}
