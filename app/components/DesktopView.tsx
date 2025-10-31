@@ -139,9 +139,7 @@ export default function DesktopView() {
                     Algorithm patterns, distilled
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    After solving and revisiting over 1,300 LeetCode problems, I've learned that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns.
-                    <br />
-                    By practicing multiple problems of the same pattern in sequence, you can internalize each technique incredibly efficiently.
+                    After solving and revisiting over 1,300 LeetCode problems, I've learned that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns. By practicing multiple problems of the same pattern in sequence, you can internalize each technique incredibly efficiently.
                     <br />
                     Let me guide you through these distilled techniques. Once you internalize them, you'll start seeing every problem as fitting one of them.
                   </p>
