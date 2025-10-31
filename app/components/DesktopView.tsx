@@ -179,7 +179,13 @@ export default function DesktopView() {
                     Your motivating pacer
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    This isn&apos;t just about algorithms. It&apos;s about your journey — your dreams, your persistence, your story. My role is not only to teach but to keep you moving when things get tough. Because consistency beats intensity. Together, we&apos;ll find the balance between progress and patience — the steady rhythm that turns effort into excellence.
+                    What I want to teach you isn't just interview techniques.
+                    <br />
+                    My job is to help you stay consistent, focused, and confident — even when progress feels slow or pressure builds up.
+                    <br />
+                    I'll make sure you can concentrate fully, feel the momentum of every problem you solve, and keep your motivation alive throughout the journey.
+                    <br />
+                    That's what I'm here for.
                   </p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
