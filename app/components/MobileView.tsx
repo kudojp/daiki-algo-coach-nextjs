@@ -168,7 +168,7 @@ export default function MobileView() {
               Curated Aha! moments
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              Algorithms are not merely tools for interviews — they&apos;re a source of joy. Here, you&apos;ll find a handpicked list of problems that spark curiosity for its own sake — puzzles so elegant that you can&apos;t help but whisper, &quot;Ah, so that&apos;s how it works.&quot; Explore these problems not for the résumé, but for the sheer pleasure of discovery. Let yourself fall into the beautiful depths of algorithmic thinking.
+              Algorithms are not merely tools for interviews — they're a source of joy. Here, you'll find a handpicked list of problems that spark curiosity for its own sake — puzzles so elegant that you can't help but whisper, "Ah, so that's how it works." Explore these problems not for career advancement, but for the sheer pleasure of discovery. I'll let you fall into the beautiful depths of algorithmic thinking.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
