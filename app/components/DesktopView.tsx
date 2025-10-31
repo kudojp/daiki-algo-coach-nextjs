@@ -126,7 +126,7 @@ export default function DesktopView() {
               Offerings
             </h2>
             <p className="text-xl text-[#5c5653] dark:text-[#a39c94] leading-relaxed max-w-2xl">
-              A comprehensive learning journey designed to support your growth every step of the way.
+              A journey designed to ignite your curiosity, sharpen your skills, and fuel your growth at every step.
             </p>
           </div>
 

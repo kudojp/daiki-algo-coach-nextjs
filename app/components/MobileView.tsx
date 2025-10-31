@@ -112,7 +112,7 @@ export default function MobileView() {
             Offerings
           </h2>
           <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-            A comprehensive learning journey designed to support your growth every step of the way.
+            A journey designed to ignite your curiosity, sharpen your skills, and fuel your growth at every step.
           </p>
         </div>
 
