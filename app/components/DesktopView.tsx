@@ -131,32 +131,15 @@ export default function DesktopView() {
           </div>
 
           <div className="space-y-6">
-            {/* Your motivating pacer */}
+            {/* Algorithm patterns, distilled */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    Your motivating pacer
+                    Algorithm patterns, distilled
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    I will motivate you. I will help you keep track of your progress.
-                  </p>
-                </div>
-                <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
-                  Explore →
-                </button>
-              </div>
-            </div>
-
-            {/* Algorithm patterns distilled */}
-            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
-              <div className="flex items-start justify-between mb-6">
-                <div>
-                  <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
-                    Algorithm patterns distilled
-                  </h3>
-                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    Connecting the dots.
+                    Over years of solving more than 1,300 LeetCode problems and joining 50+ contests, I&apos;ve uncovered the recurring patterns that define algorithmic problem-solving. Each topic — from Binary Search to Dynamic Programming — hides only a limited number of core ideas. By tackling a series of problems that share the same underlying pattern, you can train your intuition efficiently, until recognition becomes instinct. My mission is to guide you through this distilled structure of algorithms — so that every line of code feels purposeful.
                   </p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
@@ -173,7 +156,24 @@ export default function DesktopView() {
                     The art of 45-minute coding interviews
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    Time management in coding interviews, debugging tips, and strategies for success.
+                    A coding interview is not just a test — it&apos;s a performance. Every move you make can inspire confidence or curiosity in your interviewer. Through more than 200 self-run mock interviews, I&apos;ve studied what makes an interview flow. I&apos;ll help you master the rhythm: time management, concise yet insightful explanations, debugging under pressure, and the subtle art of turning a dead end into an &quot;aha&quot; moment. Treat your next interview like a rock show — and learn to shine on that stage.
+                  </p>
+                </div>
+                <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
+                  Explore →
+                </button>
+              </div>
+            </div>
+
+            {/* Your motivating pacer */}
+            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
+                    Your motivating pacer
+                  </h3>
+                  <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
+                    This isn&apos;t just about algorithms. It&apos;s about your journey — your dreams, your persistence, your story. My role is not only to teach but to keep you moving when things get tough. Because consistency beats intensity. Together, we&apos;ll find the balance between progress and patience — the steady rhythm that turns effort into excellence.
                   </p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
@@ -190,7 +190,7 @@ export default function DesktopView() {
                     Curated Aha! moments
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    List of curated purely interesting questions for you.
+                    Algorithms are not merely tools for interviews — they&apos;re a source of joy. Here, you&apos;ll find a handpicked list of problems that spark curiosity for its own sake — puzzles so elegant that you can&apos;t help but whisper, &quot;Ah, so that&apos;s how it works.&quot; Explore these problems not for the résumé, but for the sheer pleasure of discovery. Let yourself fall into the beautiful depths of algorithmic thinking.
                   </p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
@@ -207,7 +207,7 @@ export default function DesktopView() {
                     An ever-growing coach
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    Your coach is still growing.
+                    A coach should never stop learning. I&apos;ve earned the LeetCode Guardian badge, but my pursuit continues — to solve 300 more untouched hard problems, to reach Master (2100+) on Codeforces, and to grow through the very same struggles my students face. I share my growth openly — not as a finished expert, but as a fellow learner walking beside you. Together, we evolve.
                   </p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
