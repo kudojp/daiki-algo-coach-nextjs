@@ -139,7 +139,7 @@ export default function DesktopView() {
                     Algorithm patterns, distilled
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    After solving and revisiting over 1,300 LeetCode problems, I've learned that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns. By practicing multiple problems of the same pattern in sequence, you can internalize each trick incredibly efficiently.
+                    After solving and revisiting over 1,300 LeetCode problems, I've discovered that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns. By practicing multiple problems of the same pattern in sequence, you can internalize each trick incredibly efficiently.
                     <br />
                     Let me guide you through these distilled tricks. Once you internalize them, you'll start seeing every problem as fitting one of them.
                   </p>
@@ -181,7 +181,7 @@ export default function DesktopView() {
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
                     What I want to teach you isn't just interview tricks.
                     <br />
-                    My job is to help you stay consistent, focused, and confident — even when progress feels slow or pressure builds up.
+                    My job is to help you stay consistent, focused, and confident — even when progress feels slow or pressure builds.
                     <br />
                     I'll make sure you can concentrate fully, feel the momentum of every problem you solve, and keep your motivation alive throughout the journey.
                     <br />
@@ -204,7 +204,7 @@ export default function DesktopView() {
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
                     Algorithms are not merely tools for interviews — they're a source of joy.
                     <br />
-                    Here, you'll find a handpicked list of problems that spark curiosity for its own sake — puzzles so elegant that you can't help but whisper, "Ah, so that's how it works."
+                    Here, you'll find a handpicked list of problems that spark curiosity for their own sake — puzzles so elegant that you can't help but whisper, "Ah, so that's how it works."
                     <br />
                     Explore these problems not for career advancement, but for the sheer pleasure of discovery.
                     <br />
