@@ -183,7 +183,7 @@ export default function MobileView() {
               An ever-growing coach
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              A coach should never stop learning. I&apos;ve earned the LeetCode Guardian badge, but my pursuit continues — to solve 300 more untouched hard problems, to reach Master (2100+) on Codeforces, and to grow through the very same struggles my students face. I share my growth openly — not as a finished expert, but as a fellow learner walking beside you. Together, we evolve.
+              A coach should never stop learning, and I am no exception. I love algorithms and constantly challenge myself, seeking new and tougher problems that push the boundaries. Though I have achieved milestones, my journey is far from over, and I embrace the struggles that come with growth. I share this process openly — not as a finished expert, but as a fellow learner walking beside you. Together, we evolve.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
