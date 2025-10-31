@@ -139,9 +139,9 @@ export default function DesktopView() {
                     Algorithm patterns, distilled
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    After solving and revisiting over 1,300 LeetCode problems, I've learned that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns. By practicing multiple problems of the same pattern in sequence, you can internalize each technique incredibly efficiently.
+                    After solving and revisiting over 1,300 LeetCode problems, I've learned that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns. By practicing multiple problems of the same pattern in sequence, you can internalize each trick incredibly efficiently.
                     <br />
-                    Let me guide you through these distilled techniques. Once you internalize them, you'll start seeing every problem as fitting one of them.
+                    Let me guide you through these distilled tricks. Once you internalize them, you'll start seeing every problem as fitting one of them.
                   </p>
                 </div>
                 <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium whitespace-nowrap">
@@ -179,7 +179,7 @@ export default function DesktopView() {
                     Your motivating pacer
                   </h3>
                   <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                    What I want to teach you isn't just interview techniques.
+                    What I want to teach you isn't just interview tricks.
                     <br />
                     My job is to help you stay consistent, focused, and confident — even when progress feels slow or pressure builds up.
                     <br />
