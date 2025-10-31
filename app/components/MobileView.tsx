@@ -153,7 +153,7 @@ export default function MobileView() {
               The art of 45-minute coding interviews
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              A coding interview is not just a test — it&apos;s a performance. Every move you make can inspire confidence or curiosity in your interviewer. Through more than 200 self-run mock interviews, I&apos;ve studied what makes an interview flow. I&apos;ll help you master the rhythm: time management, concise yet insightful explanations, debugging under pressure, and the subtle art of turning a dead end into an &quot;aha&quot; moment. Treat your next interview like a rock show — and learn to shine on that stage.
+              A coding interview is not just a test — it's a performance. Every move you make should attract and engage your interviewer. I'll help you master the rhythm: time management, clear and concise explanations, debugging effectively under pressure, and uncovering a solution path when facing a tough question. Treat your next interview like a rock show — and learn to shine on that stage.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
