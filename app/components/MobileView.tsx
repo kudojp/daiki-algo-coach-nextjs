@@ -138,7 +138,7 @@ export default function MobileView() {
               Algorithm patterns, distilled
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              Over years of solving more than 1,300 LeetCode problems and joining 50+ contests, I&apos;ve uncovered the recurring patterns that define algorithmic problem-solving. Each topic — from Binary Search to Dynamic Programming — hides only a limited number of core ideas. By tackling a series of problems that share the same underlying pattern, you can train your intuition efficiently, until recognition becomes instinct. My mission is to guide you through this distilled structure of algorithms — so that every line of code feels purposeful.
+              After solving and revisiting over 1,300 LeetCode problems, I've learned that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns. My goal is to guide you through these distilled techniques. Once you internalize them, you'll start seeing every problem as fitting one of them.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
