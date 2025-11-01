@@ -22,10 +22,10 @@ export default function MobileView() {
               </span>
             </a>
             <div className="flex gap-3 items-center text-xs">
-              <a href="#features" className="text-[#5c5653] dark:text-[#a39c94]">
+              <a href="#offerings" className="text-[#5c5653] dark:text-[#a39c94]">
                 Offerings
               </a>
-              <a href="#problems" className="text-[#5c5653] dark:text-[#a39c94]">
+              <a href="#contents" className="text-[#5c5653] dark:text-[#a39c94]">
                 Contents
               </a>
               <a href="#coach" className="text-[#5c5653] dark:text-[#a39c94]">
@@ -49,18 +49,18 @@ export default function MobileView() {
           </p>
 
           <div className="flex flex-col gap-3">
-            <button className="w-full py-3 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] font-medium text-sm">
-              Start learning
-            </button>
-            <button className="w-full py-3 text-[#5c5653] dark:text-[#a39c94] font-medium text-sm text-left">
-              Browse problems →
-            </button>
+            <a href="#contents" className="w-full py-3 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] font-medium text-sm text-center">
+              See Contents
+            </a>
+            <a href="#coach" className="w-full py-3 text-[#5c5653] dark:text-[#a39c94] font-medium text-sm text-left">
+              Meet Coach →
+            </a>
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section id="offerings" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="mb-10">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
             Offerings
@@ -107,7 +107,7 @@ export default function MobileView() {
       </section>
 
       {/* Contents Section */}
-      <section id="problems" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section id="contents" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="mb-10">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
             Contents
