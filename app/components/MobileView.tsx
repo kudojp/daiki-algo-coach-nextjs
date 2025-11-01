@@ -257,8 +257,8 @@ export default function MobileView() {
       </section>
 
       {/* Footer */}
-      <footer className="py-10 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
-        <div className="mb-8">
+      <footer className="border-t border-[#e8e3db] dark:border-[#2d2a26]">
+        <div className="px-5 py-10">
           <div className="font-serif font-bold text-base text-[#1a1816] dark:text-[#f5f3ee] mb-3">
             Daiki Algo Coach
           </div>
@@ -266,36 +266,10 @@ export default function MobileView() {
             A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.
           </p>
         </div>
-
-        <div className="grid grid-cols-2 gap-8 mb-8">
-          <div>
-            <h4 className="text-[#1a1816] dark:text-[#f5f3ee] font-medium mb-3 text-xs">Learn</h4>
-            <ul className="space-y-2 text-[#5c5653] dark:text-[#a39c94] text-xs">
-              <li><a href="#features">Features</a></li>
-              <li><a href="#problems">Problems</a></li>
-              <li><a href="#">Learning paths</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-[#1a1816] dark:text-[#f5f3ee] font-medium mb-3 text-xs">Connect</h4>
-            <ul className="space-y-2 text-[#5c5653] dark:text-[#a39c94] text-xs">
-              <li><a href="https://www.linkedin.com/in/kudojp/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-              <li><a href="https://github.com/kudojp" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-              <li><a href="https://www.youtube.com/@daiki-algo" target="_blank" rel="noopener noreferrer">YouTube</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="pt-6 border-t border-[#e8e3db] dark:border-[#2d2a26]">
-          <p className="text-[#5c5653] dark:text-[#a39c94] text-xs mb-3 text-center">
-            © 2025 Daiki Algo Coach
+        <div className="border-t border-[#e8e3db] dark:border-[#2d2a26] py-2">
+          <p className="text-center text-[#5c5653] dark:text-[#a39c94] text-xs">
+            Copyright © 2025 Daiki Algo Coach | All rights reserved
           </p>
-          <div className="flex gap-6 justify-center text-[#5c5653] dark:text-[#a39c94] text-xs">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-          </div>
         </div>
       </footer>
     </div>

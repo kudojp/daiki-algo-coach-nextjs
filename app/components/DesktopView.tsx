@@ -31,9 +31,6 @@ export default function DesktopView() {
               <a href="#coach" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
                 Coach
               </a>
-              <button className="px-6 py-2.5 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all text-sm font-medium">
-                Get Started
-              </button>
             </div>
           </div>
         </div>
@@ -328,47 +325,19 @@ export default function DesktopView() {
       </section>
 
       {/* Footer */}
-      <footer className="py-16 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-4 gap-12 mb-12">
-            <div className="col-span-2">
-              <div className="font-serif font-bold text-xl text-[#1a1816] dark:text-[#f5f3ee] mb-4">
-                Daiki Algo Coach
-              </div>
-              <p className="text-[#5c5653] dark:text-[#a39c94] text-sm leading-relaxed">
-                A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="text-[#1a1816] dark:text-[#f5f3ee] font-medium mb-4 text-sm">Learn</h4>
-              <ul className="space-y-3 text-[#5c5653] dark:text-[#a39c94] text-sm">
-                <li><a href="#features" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">Features</a></li>
-                <li><a href="#problems" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">Problems</a></li>
-                <li><a href="#" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">Learning paths</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="text-[#1a1816] dark:text-[#f5f3ee] font-medium mb-4 text-sm">Connect</h4>
-              <ul className="space-y-3 text-[#5c5653] dark:text-[#a39c94] text-sm">
-                <li><a href="https://www.linkedin.com/in/kudojp/" target="_blank" rel="noopener noreferrer" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">LinkedIn</a></li>
-                <li><a href="https://github.com/kudojp" target="_blank" rel="noopener noreferrer" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">GitHub</a></li>
-                <li><a href="https://www.youtube.com/@daiki-algo" target="_blank" rel="noopener noreferrer" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">YouTube</a></li>
-                <li><a href="#" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">Contact</a></li>
-              </ul>
-            </div>
+      <footer className="border-t border-[#e8e3db] dark:border-[#2d2a26]">
+        <div className="max-w-5xl mx-auto px-6 lg:px-8 py-16">
+          <div className="font-serif font-bold text-xl text-[#1a1816] dark:text-[#f5f3ee] mb-4">
+            Daiki Algo Coach
           </div>
-
-          <div className="pt-8 border-t border-[#e8e3db] dark:border-[#2d2a26] flex justify-between items-center">
-            <p className="text-[#5c5653] dark:text-[#a39c94] text-sm">
-              © 2025 Daiki Algo Coach
-            </p>
-            <div className="flex gap-8 text-[#5c5653] dark:text-[#a39c94] text-sm">
-              <a href="#" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">Privacy</a>
-              <a href="#" className="hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors">Terms</a>
-            </div>
-          </div>
+          <p className="text-[#5c5653] dark:text-[#a39c94] text-sm leading-relaxed">
+            A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.
+          </p>
+        </div>
+        <div className="border-t border-[#e8e3db] dark:border-[#2d2a26] py-2">
+          <p className="text-center text-[#5c5653] dark:text-[#a39c94] text-sm">
+            Copyright © 2025 Daiki Algo Coach | All rights reserved
+          </p>
         </div>
       </footer>
     </div>
