@@ -23,7 +23,7 @@ export default function DesktopView() {
             </a>
             <div className="flex gap-10 items-center">
               <a href="#features" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
-                Features
+                Overview
               </a>
               <a href="#problems" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
                 Offerings
@@ -68,10 +68,10 @@ export default function DesktopView() {
         <div className="max-w-5xl mx-auto">
           <div className="mb-20">
             <h2 className="font-serif text-6xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-6 tracking-tight">
-              Built for learners
+              Offerings
             </h2>
             <p className="text-xl text-[#5c5653] dark:text-[#a39c94] leading-relaxed max-w-2xl">
-              Thoughtfully designed tools to support your journey through algorithmic problem-solving.
+              Your journey through interview challenges, let alone pure algorithmic joy, with consistent growth—all in one path.
             </p>
           </div>
 
@@ -131,7 +131,7 @@ export default function DesktopView() {
         <div className="max-w-5xl mx-auto">
           <div className="mb-20">
             <h2 className="font-serif text-6xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-6 tracking-tight">
-              Offerings
+              Contents
             </h2>
             <p className="text-xl text-[#5c5653] dark:text-[#a39c94] leading-relaxed max-w-2xl">
               A journey designed to ignite your curiosity, sharpen your skills, and fuel your growth at every step.

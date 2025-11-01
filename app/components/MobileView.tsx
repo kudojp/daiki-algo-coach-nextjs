@@ -23,7 +23,7 @@ export default function MobileView() {
             </a>
             <div className="flex gap-3 items-center text-xs">
               <a href="#features" className="text-[#5c5653] dark:text-[#a39c94]">
-                Features
+                Overview
               </a>
               <a href="#problems" className="text-[#5c5653] dark:text-[#a39c94]">
                 Offerings
@@ -62,10 +62,10 @@ export default function MobileView() {
       <section id="features" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="mb-10">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
-            Built for learners
+            Offerings
           </h2>
           <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-            Thoughtfully designed tools to support your journey.
+            Your journey through interview challenges, let alone pure algorithmic joy, with consistent growth—all in one path.
           </p>
         </div>
 
@@ -109,7 +109,7 @@ export default function MobileView() {
       <section id="problems" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="mb-10">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
-            Offerings
+            Contents
           </h2>
           <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
             A journey designed to ignite your curiosity, sharpen your skills, and fuel your growth at every step.
