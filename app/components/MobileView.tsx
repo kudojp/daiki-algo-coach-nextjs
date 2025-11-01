@@ -74,10 +74,10 @@ export default function MobileView() {
           <div>
             <div className="h-48 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm mb-4"></div>
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
-              Track your progress
+              Guided LeetCode Practice
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-              Visualize your learning journey with detailed statistics and completion rates. Celebrate milestones as you grow.
+              I will guide you through a roadmap built around core algorithm patterns, helping you grasp the essence first and practice more effectively. I also select problems purely for enjoyment, letting you experience algorithms as a puzzle and enjoy those "Aha!" moments.
             </p>
           </div>
 
@@ -85,10 +85,10 @@ export default function MobileView() {
           <div>
             <div className="h-48 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm mb-4"></div>
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
-              Learn patterns
+              Real Coding Interview Tactics
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-              Discover recurring patterns that elegantly solve entire classes of problems. Build intuition through practice.
+              I will teach you how to excel in a 45-minute real coding interview, sharing tips to manage time, communicate clearly, and debug efficiently. I'll also guide you in finding a foothold when you're asked a tough question and get stuck.
             </p>
           </div>
 
@@ -96,10 +96,10 @@ export default function MobileView() {
           <div>
             <div className="h-48 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm mb-4"></div>
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
-              Guided exploration
+              Consistency & Growth Coaching
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-              Progressive hints help you discover solutions independently without spoiling the challenge.
+              Consistency is key in your algorithm solving practice. I'll support your motivation, pace, and practice rhythm to help you keep growing. Bring your determination and love for algorithms—I'll take care of the rest.
             </p>
           </div>
         </div>

@@ -80,10 +80,12 @@ export default function DesktopView() {
             <div className="grid grid-cols-2 gap-16 items-start">
               <div>
                 <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4">
-                  Track your progress
+                  Guided LeetCode Practice
                 </h3>
                 <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                  Visualize your learning journey with detailed statistics and completion rates across all difficulty levels. Celebrate milestones as you grow.
+                  I will guide you through a roadmap built around core algorithm patterns, helping you grasp the essence first and practice more effectively.
+                  <br />
+                  I also select problems purely for enjoyment, letting you experience algorithms as a puzzle and enjoy those "Aha!" moments.
                 </p>
               </div>
               <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm"></div>
@@ -93,10 +95,12 @@ export default function DesktopView() {
             <div className="grid grid-cols-2 gap-16 items-start">
               <div className="order-2">
                 <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4">
-                  Learn patterns
+                  Real Coding Interview Tactics
                 </h3>
                 <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                  Discover recurring patterns that elegantly solve entire classes of problems. Build intuition through structured practice.
+                  I will teach you how to excel in a 45-minute real coding interview, sharing tips to manage time, communicate clearly, and debug efficiently.
+                  <br />
+                  I'll also guide you in finding a foothold when you're asked a tough question and get stuck.
                 </p>
               </div>
               <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm order-1"></div>
@@ -106,10 +110,14 @@ export default function DesktopView() {
             <div className="grid grid-cols-2 gap-16 items-start">
               <div>
                 <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4">
-                  Guided exploration
+                  Consistency & Growth Coaching
                 </h3>
                 <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-                  Progressive hints help you discover solutions independently. Learn to think algorithmically without spoiling the challenge.
+                  Consistency is key in your algorithm solving practice.
+                  <br />
+                  I'll support your motivation, pace, and practice rhythm to help you keep growing.
+                  <br />
+                  Bring your determination and love for algorithms—I'll take care of the rest.
                 </p>
               </div>
               <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm"></div>
