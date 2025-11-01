@@ -23,10 +23,10 @@ export default function MobileView() {
             </a>
             <div className="flex gap-3 items-center text-xs">
               <a href="#features" className="text-[#5c5653] dark:text-[#a39c94]">
-                Overview
+                Offerings
               </a>
               <a href="#problems" className="text-[#5c5653] dark:text-[#a39c94]">
-                Offerings
+                Contents
               </a>
               <a href="#coach" className="text-[#5c5653] dark:text-[#a39c94]">
                 Coach
@@ -39,13 +39,13 @@ export default function MobileView() {
       {/* Hero Section */}
       <section className="pt-10 pb-10 px-5">
         <div>
-          <h1 className="font-serif text-lg font-bold text-[#1a1816] dark:text-[#f5f3ee] tracking-tight mb-5" style={{ lineHeight: '1.375' }}>
+          <h1 className="font-serif text-lg font-bold text-[#1a1816] dark:text-[#f5f3ee] tracking-tight mb-8" style={{ lineHeight: '1.375' }}>
             <div className="mb-5">Learn, Solve, Grow</div>
             <div className="mb-5">Experience the Joy of Algorithms</div>
           </h1>
 
           <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-8">
-            A thoughtful learning platform for exploring algorithmic thinking through carefully curated problems.
+            I guide you through LeetCode problems, helping you master algorithms and excel in coding interviews.
           </p>
 
           <div className="flex flex-col gap-3">

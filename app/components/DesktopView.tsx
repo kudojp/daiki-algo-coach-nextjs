@@ -23,10 +23,10 @@ export default function DesktopView() {
             </a>
             <div className="flex gap-10 items-center">
               <a href="#features" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
-                Overview
+                Offerings
               </a>
               <a href="#problems" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
-                Offerings
+                Contents
               </a>
               <a href="#coach" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
                 Coach
@@ -43,13 +43,13 @@ export default function DesktopView() {
       <section className="pt-32 pb-24 px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center">
-            <h1 className="font-serif text-5xl font-bold text-[#1a1816] dark:text-[#f5f3ee] tracking-tight mb-10" style={{ lineHeight: '1.2' }}>
+            <h1 className="font-serif text-5xl font-bold text-[#1a1816] dark:text-[#f5f3ee] tracking-tight mb-16" style={{ lineHeight: '1.2' }}>
               <div className="mb-10">Learn, Solve, Grow</div>
               <div className="mb-10">Experience the Joy of Algorithms</div>
             </h1>
 
             <p className="text-2xl text-[#5c5653] dark:text-[#a39c94] leading-relaxed max-w-2xl mx-auto mb-14">
-              A thoughtful learning platform for exploring algorithmic thinking through carefully curated problems.
+              I guide you through LeetCode problems, helping you master algorithms and excel in coding interviews.
             </p>
 
             <div className="flex gap-4 justify-center">
