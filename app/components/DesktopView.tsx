@@ -109,7 +109,15 @@ export default function DesktopView() {
                   I'll also guide you in finding a foothold when you're asked a tough question and get stuck.
                 </p>
               </div>
-              <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm order-1"></div>
+              <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm order-1 overflow-hidden">
+                <Image
+                  src="/real_coding_interview_tactics.png"
+                  alt="Real Coding Interview Tactics"
+                  width={800}
+                  height={600}
+                  className="object-cover w-full h-full"
+                />
+              </div>
             </div>
 
             {/* Feature 3 */}
