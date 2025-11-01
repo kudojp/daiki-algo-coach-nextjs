@@ -259,12 +259,50 @@ export default function MobileView() {
       {/* Footer */}
       <footer className="border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="px-5 py-10">
-          <div className="font-serif font-bold text-base text-[#1a1816] dark:text-[#f5f3ee] mb-3">
+          <div className="font-serif font-bold text-xl text-[#1a1816] dark:text-[#f5f3ee] mb-2">
             Daiki Algo Coach
           </div>
-          <p className="text-[#5c5653] dark:text-[#a39c94] text-xs leading-relaxed">
+          <p className="text-xs text-[#7a7a7a] dark:text-[#7a7a7a] mb-4 leading-relaxed">
             A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.
           </p>
+          <div className="flex flex-row gap-x-2 items-center">
+            <a
+              href="https://www.linkedin.com/in/kudojp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
+              aria-label="LinkedIn Profile"
+            >
+              <FaLinkedin size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+            </a>
+            <a
+              href="https://leetcode.com/u/kudojp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
+              aria-label="LeetCode Profile"
+            >
+              <SiLeetcode size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+            </a>
+            <a
+              href="https://github.com/kudojp"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
+              aria-label="GitHub Profile"
+            >
+              <FaGithub size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+            </a>
+            <a
+              href="https://www.youtube.com/@daiki-algo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-1.5 py-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
+              aria-label="YouTube Channel"
+            >
+              <FaYoutube size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+            </a>
+          </div>
         </div>
         <div className="border-t border-[#e8e3db] dark:border-[#2d2a26] py-2">
           <p className="text-center text-[#5c5653] dark:text-[#a39c94] text-xs">

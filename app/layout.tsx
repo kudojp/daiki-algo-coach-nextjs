@@ -15,7 +15,7 @@ const sans = Inter({
 
 export const metadata: Metadata = {
   title: "Daiki Algo Coach",
-  description: "A learning platform dedicated to exploring algorithmic thinking through LeetCode problems. Build problem-solving skills and enjoy the journey.",
+  description: "A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.",
   icons: {
     icon: "/D_icon.png",
   },

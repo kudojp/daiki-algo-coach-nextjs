@@ -326,13 +326,55 @@ export default function DesktopView() {
 
       {/* Footer */}
       <footer className="border-t border-[#e8e3db] dark:border-[#2d2a26]">
-        <div className="max-w-5xl mx-auto px-6 lg:px-8 py-16">
-          <div className="font-serif font-bold text-xl text-[#1a1816] dark:text-[#f5f3ee] mb-4">
-            Daiki Algo Coach
+        <div className="py-16 px-6 lg:px-8">
+          <div className="max-w-5xl mx-auto">
+            <div className="w-1/4">
+              <div className="font-serif font-bold text-2xl text-[#1a1816] dark:text-[#f5f3ee] mb-3">
+                Daiki Algo Coach
+              </div>
+              <p className="text-xs text-[#7a7a7a] dark:text-[#7a7a7a] mb-4 leading-relaxed">
+                A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.
+              </p>
+              <div className="flex flex-row gap-x-2 items-center">
+                <a
+                  href="https://www.linkedin.com/in/kudojp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer hover:bg-[#1a1816] dark:hover:bg-[#f5f3ee]"
+                  aria-label="LinkedIn Profile"
+                >
+                  <FaLinkedin size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+                </a>
+                <a
+                  href="https://leetcode.com/u/kudojp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer hover:bg-[#1a1816] dark:hover:bg-[#f5f3ee]"
+                  aria-label="LeetCode Profile"
+                >
+                  <SiLeetcode size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+                </a>
+                <a
+                  href="https://github.com/kudojp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer hover:bg-[#1a1816] dark:hover:bg-[#f5f3ee]"
+                  aria-label="GitHub Profile"
+                >
+                  <FaGithub size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+                </a>
+                <a
+                  href="https://www.youtube.com/@daiki-algo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-1.5 py-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer hover:bg-[#1a1816] dark:hover:bg-[#f5f3ee]"
+                  aria-label="YouTube Channel"
+                >
+                  <FaYoutube size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+                </a>
+              </div>
+            </div>
           </div>
-          <p className="text-[#5c5653] dark:text-[#a39c94] text-sm leading-relaxed">
-            A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.
-          </p>
         </div>
         <div className="border-t border-[#e8e3db] dark:border-[#2d2a26] py-2">
           <p className="text-center text-[#5c5653] dark:text-[#a39c94] text-sm">
