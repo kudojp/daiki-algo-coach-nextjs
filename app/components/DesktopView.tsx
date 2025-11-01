@@ -43,11 +43,12 @@ export default function DesktopView() {
       <section className="pt-32 pb-24 px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center">
-            <h1 className="font-serif text-6xl font-bold mb-10 text-[#1a1816] dark:text-[#f5f3ee] leading-[1.1] tracking-tight">
-              Discover the joy of algorithms
+            <h1 className="font-serif text-5xl font-bold text-[#1a1816] dark:text-[#f5f3ee] tracking-tight mb-10" style={{ lineHeight: '1.2' }}>
+              <div className="mb-10">Learn, Solve, Grow</div>
+              <div className="mb-10">Experience the Joy of Algorithms</div>
             </h1>
 
-            <p className="text-2xl text-[#5c5653] dark:text-[#a39c94] mb-14 leading-relaxed max-w-2xl mx-auto">
+            <p className="text-2xl text-[#5c5653] dark:text-[#a39c94] leading-relaxed max-w-2xl mx-auto mb-14">
               A thoughtful learning platform for exploring algorithmic thinking through carefully curated problems.
             </p>
 
