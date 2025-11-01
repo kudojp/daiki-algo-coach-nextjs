@@ -93,7 +93,15 @@ export default function MobileView() {
         <div className="space-y-10">
           {/* Feature 1 */}
           <div>
-            <div className="h-48 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm mb-4"></div>
+            <div className="h-48 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm mb-4 overflow-hidden">
+              <Image
+                src="/guided_leetcode_practice.png"
+                alt="Guided LeetCode Practice"
+                width={800}
+                height={600}
+                className="object-cover w-full h-full"
+              />
+            </div>
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
               Guided LeetCode Practice
             </h3>

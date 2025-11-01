@@ -86,7 +86,15 @@ export default function DesktopView() {
                   I also select problems purely for enjoyment, letting you experience algorithms as a puzzle and enjoy those "Aha!" moments.
                 </p>
               </div>
-              <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm"></div>
+              <div className="h-64 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm overflow-hidden">
+                <Image
+                  src="/guided_leetcode_practice.png"
+                  alt="Guided LeetCode Practice"
+                  width={800}
+                  height={600}
+                  className="object-cover w-full h-full"
+                />
+              </div>
             </div>
 
             {/* Feature 2 */}
