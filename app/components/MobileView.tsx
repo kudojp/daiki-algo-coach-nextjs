@@ -120,7 +120,7 @@ export default function MobileView() {
           {/* Algorithm patterns, distilled */}
           <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
-              Algorithm patterns, distilled
+              LeetCode algorithm patterns, distilled
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
               After solving and revisiting over 1,300 LeetCode problems, I've discovered that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns. By practicing multiple problems of the same pattern in sequence, you can internalize each trick incredibly efficiently. Let me guide you through these distilled tricks. Once you internalize them, you'll start seeing every problem as fitting one of them.
