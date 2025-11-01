@@ -22,10 +22,16 @@ export default function MobileView() {
               </span>
             </a>
             <div className="flex gap-3 items-center text-xs">
-              <a href="#offerings" className="text-[#5c5653] dark:text-[#a39c94]">
+              <a
+                href="#offerings"
+                className="text-[#5c5653] dark:text-[#a39c94]"
+              >
                 Offerings
               </a>
-              <a href="#contents" className="text-[#5c5653] dark:text-[#a39c94]">
+              <a
+                href="#contents"
+                className="text-[#5c5653] dark:text-[#a39c94]"
+              >
                 Contents
               </a>
               <a href="#coach" className="text-[#5c5653] dark:text-[#a39c94]">
@@ -39,20 +45,30 @@ export default function MobileView() {
       {/* Hero Section */}
       <section className="pt-10 pb-10 px-5">
         <div>
-          <h1 className="font-serif text-lg font-bold text-[#1a1816] dark:text-[#f5f3ee] tracking-tight mb-8" style={{ lineHeight: '1.375' }}>
+          <h1
+            className="font-serif text-lg font-bold text-[#1a1816] dark:text-[#f5f3ee] tracking-tight mb-8"
+            style={{ lineHeight: "1.375" }}
+          >
             <div className="mb-5">Learn, Solve, Grow</div>
             <div className="mb-5">Experience the Joy of Algorithms</div>
           </h1>
 
           <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-8">
-            I guide you through LeetCode problems, helping you master algorithms and excel in coding interviews.
+            I guide you through LeetCode problems, helping you master algorithms
+            and excel in coding interviews.
           </p>
 
           <div className="flex flex-col gap-3">
-            <a href="#contents" className="w-full py-3 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] font-medium text-sm text-center">
+            <a
+              href="#contents"
+              className="w-full py-3 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] font-medium text-sm text-center"
+            >
               See Contents
             </a>
-            <a href="#coach" className="w-full py-3 text-[#5c5653] dark:text-[#a39c94] font-medium text-sm text-left">
+            <a
+              href="#coach"
+              className="w-full py-3 text-[#5c5653] dark:text-[#a39c94] font-medium text-sm text-left"
+            >
               Meet Coach →
             </a>
           </div>
@@ -60,13 +76,17 @@ export default function MobileView() {
       </section>
 
       {/* Features Section */}
-      <section id="offerings" className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section
+        id="offerings"
+        className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]"
+      >
         <div className="mb-10">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
             Offerings
           </h2>
           <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-            Your journey through interview challenges, let alone pure algorithmic joy, with consistent growth—all in one path.
+            Your journey through interview challenges, let alone pure
+            algorithmic joy, with consistent growth—all in one path.
           </p>
         </div>
 
@@ -78,7 +98,11 @@ export default function MobileView() {
               Guided LeetCode Practice
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-              I will guide you through a roadmap built around core algorithm patterns, helping you grasp the essence first and practice more effectively. I also select problems purely for enjoyment, letting you experience algorithms as a puzzle and enjoy those "Aha!" moments.
+              I will guide you through a roadmap built around core algorithm
+              patterns, helping you grasp the essence first and practice more
+              effectively. I also select problems purely for enjoyment, letting
+              you experience algorithms as a puzzle and enjoy those "Aha!"
+              moments.
             </p>
           </div>
 
@@ -89,7 +113,10 @@ export default function MobileView() {
               Real Coding Interview Tactics
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-              I will teach you how to excel in a 45-minute real coding interview, sharing tips to manage time, communicate clearly, and debug efficiently. I'll also guide you in finding a foothold when you're asked a tough question and get stuck.
+              I will teach you how to excel in a 45-minute real coding
+              interview, sharing tips to manage time, communicate clearly, and
+              debug efficiently. I'll also guide you in finding a foothold when
+              you're asked a tough question and get stuck.
             </p>
           </div>
 
@@ -100,20 +127,27 @@ export default function MobileView() {
               Consistency & Growth Coaching
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-              Consistency is key in your algorithm solving practice. I'll support your motivation, pace, and practice rhythm to help you keep growing. Bring your determination and love for algorithms—I'll take care of the rest.
+              Consistency is key in your algorithm solving practice. I'll
+              support your motivation, pace, and practice rhythm to help you
+              keep growing. Bring your determination and love for
+              algorithms—I'll take care of the rest.
             </p>
           </div>
         </div>
       </section>
 
       {/* Contents Section */}
-      <section id="contents" className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section
+        id="contents"
+        className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]"
+      >
         <div className="mb-6">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
             Contents
           </h2>
           <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
-            A journey designed to ignite your curiosity, sharpen your skills, and fuel your growth at every step.
+            A journey designed to ignite your curiosity, sharpen your skills,
+            and fuel your growth at every step.
           </p>
         </div>
 
@@ -124,7 +158,13 @@ export default function MobileView() {
               LeetCode algorithm patterns, distilled
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              After solving and revisiting over 1,300 LeetCode problems, I've discovered that every topic — from Binary Search to Dynamic Programming — rests on a few core patterns. By practicing multiple problems of the same pattern in sequence, you can internalize each trick incredibly efficiently. Let me guide you through these distilled tricks. Once you internalize them, you'll start seeing every problem as fitting one of them.
+              After solving and revisiting over 1,300 LeetCode problems, I've
+              discovered that every topic — from Binary Search to Dynamic
+              Programming — rests on a few core patterns. By practicing multiple
+              problems of the same pattern in sequence, you can internalize each
+              trick incredibly efficiently. Let me guide you through these
+              distilled tricks. Once you internalize them, you'll start seeing
+              every problem as fitting one of them.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
@@ -139,7 +179,12 @@ export default function MobileView() {
               The art of 45-minute coding interviews
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              A coding interview is not just a test — it's a performance. Every move you make should attract and engage your interviewer. I'll help you master the rhythm: time management, clear and concise explanations, debugging effectively under pressure, and uncovering a solution path when facing a tough question. Treat your next interview like a rock show — and learn to shine on that stage.
+              A coding interview is not just a test — it's a performance. Every
+              move you make should attract and engage your interviewer. I'll
+              help you master the rhythm: time management, clear and concise
+              explanations, debugging effectively under pressure, and uncovering
+              a solution path when facing a tough question. Treat your next
+              interview like a rock show — and learn to shine on that stage.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
@@ -154,7 +199,12 @@ export default function MobileView() {
               Your motivating pacer
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              What I want to teach you isn't just interview tricks. My job is to help you stay consistent, focused, and confident — even when progress feels slow or pressure builds. I'll make sure you can concentrate fully, feel the momentum of every problem you solve, and keep your motivation alive throughout the journey. That's what I'm here for.
+              What I want to teach you isn't just interview tricks. My job is to
+              help you stay consistent, focused, and confident — even when
+              progress feels slow or pressure builds. I'll make sure you can
+              concentrate fully, feel the momentum of every problem you solve,
+              and keep your motivation alive throughout the journey. That's what
+              I'm here for.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
@@ -169,7 +219,13 @@ export default function MobileView() {
               Curated Aha! moments
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              Algorithms are not merely tools for interviews — they're a source of joy. Here, you'll find a handpicked list of problems that spark curiosity for their own sake — puzzles so elegant that you can't help but whisper, "Ah, so that's how it works." Explore these problems not for career advancement, but for the sheer pleasure of discovery. I'll let you fall into the beautiful depths of algorithmic thinking.
+              Algorithms are not merely tools for interviews — they're a source
+              of joy. Here, you'll find a handpicked list of problems that spark
+              curiosity for their own sake — puzzles so elegant that you can't
+              help but whisper, "Ah, so that's how it works." Explore these
+              problems not for career advancement, but for the sheer pleasure of
+              discovery. I'll let you fall into the beautiful depths of
+              algorithmic thinking.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
@@ -184,7 +240,13 @@ export default function MobileView() {
               An ever-growing coach
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              A coach should never stop learning, and I am no exception. I love algorithms and constantly challenge myself, seeking new and tougher problems that push the boundaries. Though I have achieved milestones, my journey is far from over, and I embrace the struggles that come with growth. I share this process openly — not as a finished expert, but as a fellow learner walking beside you. Together, we evolve.
+              A coach should never stop learning, and I am no exception. I love
+              algorithms and constantly challenge myself, seeking new and
+              tougher problems that push the boundaries. Though I have achieved
+              milestones, my journey is far from over, and I embrace the
+              struggles that come with growth. I share this process openly — not
+              as a finished expert, but as a fellow learner walking beside you.
+              Together, we evolve.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
@@ -196,8 +258,13 @@ export default function MobileView() {
       </section>
 
       {/* Coach Section */}
-      <section id="coach" className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
-        <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-3">Your coach</div>
+      <section
+        id="coach"
+        className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]"
+      >
+        <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-3">
+          Your coach
+        </div>
         <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
           Meet Daiki
         </h2>
@@ -213,19 +280,21 @@ export default function MobileView() {
         </div>
 
         <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-6">
-          Hi, I'm Daiki — your coach based in Tokyo, Japan. I'm a passionate algorithm enthusiast and a LeetCode Guardian, ranked within the top 1.2% of participants worldwide. My major in university was geophysics, not computer science — so I had to teach myself everything from scratch, through countless late nights of trial, error, and discovery. That process taught me something invaluable: growth isn't about talent; it's about consistency, curiosity, passion, and the courage to keep going when things get tough — and above all, a deep love and dedication for the craft itself. Now, I aim to share that mindset — embracing your journey of curiosity, exploration, and growth towards the achievement of your goal. Let's grow together, one problem at a time.
+          Hi, I'm Daiki — your coach based in Tokyo, Japan. I'm a passionate
+          algorithm enthusiast and a LeetCode Guardian, ranked within the top
+          1.2% of participants worldwide. My major in university was geophysics,
+          not computer science — so I had to teach myself everything from
+          scratch, through countless late nights of trial, error, and discovery.
+          That process taught me something invaluable: growth isn't about
+          talent; it's about consistency, curiosity, passion, and the courage to
+          keep going when things get tough — and above all, a deep love and
+          dedication for the craft itself. Now, I aim to share that mindset —
+          embracing your journey of curiosity, exploration, and growth towards
+          the achievement of your goal. Let's grow together, one problem at a
+          time.
         </p>
 
         <div className="flex gap-6 justify-center">
-          <a
-            href="https://www.linkedin.com/in/kudojp/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
-            aria-label="LinkedIn Profile"
-          >
-            <FaLinkedin size={32} />
-          </a>
           <a
             href="https://leetcode.com/u/kudojp/"
             target="_blank"
@@ -234,6 +303,15 @@ export default function MobileView() {
             aria-label="LeetCode Profile"
           >
             <SiLeetcode size={32} />
+          </a>
+          <a
+            href="https://www.youtube.com/@daiki-algo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
+            aria-label="YouTube Channel"
+          >
+            <FaYoutube size={32} />
           </a>
           <a
             href="https://github.com/kudojp"
@@ -245,13 +323,13 @@ export default function MobileView() {
             <FaGithub size={32} />
           </a>
           <a
-            href="https://www.youtube.com/@daiki-algo"
+            href="https://www.linkedin.com/in/kudojp/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[#5c5653] dark:text-[#a39c94] hover:text-[#1a1816] dark:hover:text-[#f5f3ee] transition-colors"
-            aria-label="YouTube Channel"
+            aria-label="LinkedIn Profile"
           >
-            <FaYoutube size={32} />
+            <FaLinkedin size={32} />
           </a>
         </div>
       </section>
@@ -263,7 +341,8 @@ export default function MobileView() {
             Daiki Algo Coach
           </div>
           <p className="text-xs text-[#7a7a7a] dark:text-[#7a7a7a] mb-4 leading-relaxed">
-            A learning platform dedicated to the joy of algorithms and thoughtful problem-solving.
+            A learning platform dedicated to the joy of algorithms and
+            thoughtful problem-solving.
           </p>
           <div className="flex flex-row gap-x-2 items-center">
             <a
@@ -273,7 +352,10 @@ export default function MobileView() {
               className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
               aria-label="LeetCode Profile"
             >
-              <SiLeetcode size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+              <SiLeetcode
+                size={12}
+                className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]"
+              />
             </a>
             <a
               href="https://www.youtube.com/@daiki-algo"
@@ -282,7 +364,10 @@ export default function MobileView() {
               className="px-1.5 py-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
               aria-label="YouTube Channel"
             >
-              <FaYoutube size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+              <FaYoutube
+                size={12}
+                className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]"
+              />
             </a>
             <a
               href="https://github.com/kudojp"
@@ -291,7 +376,10 @@ export default function MobileView() {
               className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
               aria-label="GitHub Profile"
             >
-              <FaGithub size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+              <FaGithub
+                size={12}
+                className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]"
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/kudojp/"
@@ -300,7 +388,10 @@ export default function MobileView() {
               className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
               aria-label="LinkedIn Profile"
             >
-              <FaLinkedin size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+              <FaLinkedin
+                size={12}
+                className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]"
+              />
             </a>
           </div>
         </div>
