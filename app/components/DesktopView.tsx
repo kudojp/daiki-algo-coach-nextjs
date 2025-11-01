@@ -109,7 +109,7 @@ export default function DesktopView() {
             {/* Feature 3 */}
             <div className="grid grid-cols-2 gap-16 items-start">
               <div>
-                <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4">
+                <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 whitespace-nowrap">
                   Consistency & Growth Coaching
                 </h3>
                 <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed">
