@@ -60,7 +60,7 @@ export default function MobileView() {
       </section>
 
       {/* Features Section */}
-      <section id="offerings" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section id="offerings" className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="mb-10">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
             Offerings
@@ -107,7 +107,7 @@ export default function MobileView() {
       </section>
 
       {/* Contents Section */}
-      <section id="contents" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section id="contents" className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="mb-10">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
             Contents
@@ -117,7 +117,7 @@ export default function MobileView() {
           </p>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-3">
           {/* Algorithm patterns, distilled */}
           <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
@@ -196,7 +196,7 @@ export default function MobileView() {
       </section>
 
       {/* Coach Section */}
-      <section id="coach" className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section id="coach" className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="text-xs text-[#5c5653] dark:text-[#a39c94] mb-3">Your coach</div>
         <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
           Meet Daiki

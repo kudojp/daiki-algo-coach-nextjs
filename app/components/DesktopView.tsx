@@ -65,7 +65,7 @@ export default function DesktopView() {
       </section>
 
       {/* Features Section */}
-      <section id="offerings" className="py-32 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section id="offerings" className="py-20 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="max-w-5xl mx-auto">
           <div className="mb-20">
             <h2 className="font-serif text-6xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-6 tracking-tight">
@@ -128,7 +128,7 @@ export default function DesktopView() {
       </section>
 
       {/* Contents Section */}
-      <section id="contents" className="py-32 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section id="contents" className="py-20 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="max-w-5xl mx-auto">
           <div className="mb-20">
             <h2 className="font-serif text-6xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-6 tracking-tight">
@@ -139,7 +139,7 @@ export default function DesktopView() {
             </p>
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-4">
             {/* Algorithm patterns, distilled */}
             <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
               <div className="flex items-start justify-between mb-6">
@@ -251,7 +251,7 @@ export default function DesktopView() {
       </section>
 
       {/* Coach Section */}
-      <section id="coach" className="py-32 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
+      <section id="coach" className="py-20 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="max-w-5xl mx-auto">
           <div className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-4">Your coach</div>
           <h2 className="font-serif text-5xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-12 tracking-tight">
