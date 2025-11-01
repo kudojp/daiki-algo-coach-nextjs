@@ -327,21 +327,6 @@ export default function DesktopView() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-32 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-serif text-6xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-8 tracking-tight">
-            Begin your journey
-          </h2>
-          <p className="text-xl text-[#5c5653] dark:text-[#a39c94] mb-12 leading-relaxed max-w-2xl mx-auto">
-            Join a community of thoughtful learners exploring the elegant world of algorithms.
-          </p>
-          <button className="px-8 py-4 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] hover:bg-[#1a1816] hover:text-[#faf9f6] dark:hover:bg-[#f5f3ee] dark:hover:text-[#1a1816] transition-all font-medium">
-            Start learning today
-          </button>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="py-16 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="max-w-5xl mx-auto">

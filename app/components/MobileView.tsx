@@ -256,21 +256,6 @@ export default function MobileView() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-12 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
-        <div className="text-center">
-          <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-5 tracking-tight">
-            Begin your journey
-          </h2>
-          <p className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-8 leading-relaxed">
-            Join a community of thoughtful learners exploring the elegant world of algorithms.
-          </p>
-          <button className="w-full py-3 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] font-medium text-sm">
-            Start learning today
-          </button>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="py-10 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="mb-8">
