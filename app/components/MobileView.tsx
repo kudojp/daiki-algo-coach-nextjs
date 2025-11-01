@@ -108,7 +108,7 @@ export default function MobileView() {
 
       {/* Contents Section */}
       <section id="contents" className="py-8 px-5 border-t border-[#e8e3db] dark:border-[#2d2a26]">
-        <div className="mb-10">
+        <div className="mb-6">
           <h2 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-4 tracking-tight">
             Contents
           </h2>
@@ -119,7 +119,7 @@ export default function MobileView() {
 
         <div className="space-y-3">
           {/* Algorithm patterns, distilled */}
-          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-5">
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
               LeetCode algorithm patterns, distilled
             </h3>
@@ -134,7 +134,7 @@ export default function MobileView() {
           </div>
 
           {/* The art of 45-minute coding interviews */}
-          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-5">
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
               The art of 45-minute coding interviews
             </h3>
@@ -149,7 +149,7 @@ export default function MobileView() {
           </div>
 
           {/* Your motivating pacer */}
-          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-5">
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
               Your motivating pacer
             </h3>
@@ -164,7 +164,7 @@ export default function MobileView() {
           </div>
 
           {/* Curated Aha! moments */}
-          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-5">
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
               Curated Aha! moments
             </h3>
@@ -179,7 +179,7 @@ export default function MobileView() {
           </div>
 
           {/* An ever-growing coach */}
-          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-5">
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
               An ever-growing coach
             </h3>

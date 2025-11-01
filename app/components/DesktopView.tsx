@@ -130,7 +130,7 @@ export default function DesktopView() {
       {/* Contents Section */}
       <section id="contents" className="py-20 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="max-w-5xl mx-auto">
-          <div className="mb-20">
+          <div className="mb-12">
             <h2 className="font-serif text-6xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-6 tracking-tight">
               Contents
             </h2>
@@ -141,8 +141,8 @@ export default function DesktopView() {
 
           <div className="space-y-4">
             {/* Algorithm patterns, distilled */}
-            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
-              <div className="flex items-start justify-between mb-6">
+            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-8 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
+              <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
                     LeetCode algorithm patterns, distilled
@@ -160,8 +160,8 @@ export default function DesktopView() {
             </div>
 
             {/* The art of 45-minute coding interviews */}
-            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
-              <div className="flex items-start justify-between mb-6">
+            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-8 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
+              <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
                     The art of 45-minute coding interviews
@@ -181,8 +181,8 @@ export default function DesktopView() {
             </div>
 
             {/* Your motivating pacer */}
-            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
-              <div className="flex items-start justify-between mb-6">
+            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-8 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
+              <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
                     Your motivating pacer
@@ -204,8 +204,8 @@ export default function DesktopView() {
             </div>
 
             {/* Curated Aha! moments */}
-            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
-              <div className="flex items-start justify-between mb-6">
+            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-8 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
+              <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
                     Curated Aha! moments
@@ -227,8 +227,8 @@ export default function DesktopView() {
             </div>
 
             {/* An ever-growing coach */}
-            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-10 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
-              <div className="flex items-start justify-between mb-6">
+            <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-8 hover:border-[#1a1816] dark:hover:border-[#f5f3ee] transition-colors">
+              <div className="flex items-start justify-between mb-4">
                 <div>
                   <h3 className="font-serif text-3xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-3">
                     An ever-growing coach
