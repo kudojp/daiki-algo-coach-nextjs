@@ -267,15 +267,6 @@ export default function MobileView() {
           </p>
           <div className="flex flex-row gap-x-2 items-center">
             <a
-              href="https://www.linkedin.com/in/kudojp/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
-              aria-label="LinkedIn Profile"
-            >
-              <FaLinkedin size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
-            </a>
-            <a
               href="https://leetcode.com/u/kudojp/"
               target="_blank"
               rel="noopener noreferrer"
@@ -283,6 +274,15 @@ export default function MobileView() {
               aria-label="LeetCode Profile"
             >
               <SiLeetcode size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+            </a>
+            <a
+              href="https://www.youtube.com/@daiki-algo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-1.5 py-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
+              aria-label="YouTube Channel"
+            >
+              <FaYoutube size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
             </a>
             <a
               href="https://github.com/kudojp"
@@ -294,13 +294,13 @@ export default function MobileView() {
               <FaGithub size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
             </a>
             <a
-              href="https://www.youtube.com/@daiki-algo"
+              href="https://www.linkedin.com/in/kudojp/"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-1.5 py-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
-              aria-label="YouTube Channel"
+              className="p-2 rounded-full border-[#f0f0f060] border-2 group transition-all ease-in-out duration-300 cursor-pointer"
+              aria-label="LinkedIn Profile"
             >
-              <FaYoutube size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
+              <FaLinkedin size={12} className="fill-[#7a7a7a] group-hover:fill-white dark:group-hover:fill-[#1a1816]" />
             </a>
           </div>
         </div>
