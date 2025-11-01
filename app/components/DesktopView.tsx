@@ -244,25 +244,25 @@ export default function DesktopView() {
       {/* Coach Section */}
       <section id="coach" className="py-32 px-6 lg:px-8 border-t border-[#e8e3db] dark:border-[#2d2a26]">
         <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-2 gap-16 items-center">
+          <div className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-4">Your coach</div>
+          <h2 className="font-serif text-5xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-12 tracking-tight">
+            Meet Daiki
+          </h2>
+          <div className="grid grid-cols-[60%_40%] gap-16 items-start">
             <div>
-              <div className="text-sm text-[#5c5653] dark:text-[#a39c94] mb-4">Your coach</div>
-              <h2 className="font-serif text-5xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-6 tracking-tight">
-                Meet Daiki
-              </h2>
               <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-8">
                 Hi, I'm Daiki — your coach based in Tokyo, Japan.
                 <br />
-                I'm a passionate algorithm enthusiast and a LeetCode Guardian, a badge awarded to top performers in LeetCode's global weekly contests. Among them, I've ranked within the top 1.2% of participants worldwide.
+                I'm a passionate algorithm enthusiast and a LeetCode Guardian, ranked within the top 1.2% of participants worldwide.
                 <br />
                 <br />
-                My major in university was geophysics, not computer science — so I had to teach myself everything from algorithms to software engineering from scratch, through countless late nights of trial, error, and discovery.
+                My major in university was geophysics, not computer science — so I had to teach myself everything from scratch, through countless late nights of trial, error, and discovery.
                 <br />
                 <br />
                 That process taught me something invaluable: growth isn't about talent; it's about consistency, curiosity, passion, and the courage to keep going when things get tough — and above all, a deep love and dedication for the craft itself.
                 <br />
                 <br />
-                Now, I aim to share that mindset — helping others move beyond simply reaching an outcome, and to embrace the journey of curiosity, exploration, and growth itself.
+                Now, I aim to share that mindset — embracing your journey of curiosity, exploration, and growth towards the achievement of your goal.
                 <br />
                 Let's grow together, one problem at a time.
               </p>
@@ -305,7 +305,7 @@ export default function DesktopView() {
                 </a>
               </div>
             </div>
-            <div className="h-96 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center overflow-hidden">
+            <div className="h-80 bg-[#e8e3db] dark:bg-[#2d2a26] rounded-sm flex items-center justify-center overflow-hidden">
               <Image
                 src="/daiki_icon.png"
                 alt="Daiki Profile"
