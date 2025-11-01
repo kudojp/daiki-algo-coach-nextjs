@@ -262,10 +262,7 @@ export default function DesktopView() {
                 I'm a passionate algorithm enthusiast and a LeetCode Guardian, ranked within the top 1.2% of participants worldwide.
                 <br />
                 <br />
-                My major in university was geophysics, not computer science — so I had to teach myself everything from scratch, through countless late nights of trial, error, and discovery.
-                <br />
-                <br />
-                That process taught me something invaluable: growth isn't about talent; it's about consistency, curiosity, passion, and the courage to keep going when things get tough — and above all, a deep love and dedication for the craft itself.
+                My major in university was geophysics, not computer science — so I had to teach myself everything from scratch, through countless late nights of trial, error, and discovery. That process taught me something invaluable: growth isn't about talent; it's about consistency, curiosity, passion, and the courage to keep going when things get tough — and above all, a deep love and dedication for the craft itself.
                 <br />
                 <br />
                 Now, I aim to share that mindset — embracing your journey of curiosity, exploration, and growth towards the achievement of your goal.
