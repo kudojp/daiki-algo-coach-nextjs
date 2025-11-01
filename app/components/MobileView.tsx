@@ -117,21 +117,6 @@ export default function MobileView() {
         </div>
 
         <div className="space-y-4">
-          {/* Your motivating pacer */}
-          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
-            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
-              Your motivating pacer
-            </h3>
-            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
-              What I want to teach you isn't just interview tricks. My job is to help you stay consistent, focused, and confident — even when progress feels slow or pressure builds. I'll make sure you can concentrate fully, feel the momentum of every problem you solve, and keep your motivation alive throughout the journey. That's what I'm here for.
-            </p>
-            <div className="flex justify-end">
-              <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
-                Explore →
-              </button>
-            </div>
-          </div>
-
           {/* Algorithm patterns, distilled */}
           <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
             <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
@@ -154,6 +139,21 @@ export default function MobileView() {
             </h3>
             <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
               A coding interview is not just a test — it's a performance. Every move you make should attract and engage your interviewer. I'll help you master the rhythm: time management, clear and concise explanations, debugging effectively under pressure, and uncovering a solution path when facing a tough question. Treat your next interview like a rock show — and learn to shine on that stage.
+            </p>
+            <div className="flex justify-end">
+              <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
+                Explore →
+              </button>
+            </div>
+          </div>
+
+          {/* Your motivating pacer */}
+          <div className="border border-[#e8e3db] dark:border-[#2d2a26] p-6">
+            <h3 className="font-serif text-xl font-bold text-[#1a1816] dark:text-[#f5f3ee] mb-2">
+              Your motivating pacer
+            </h3>
+            <p className="text-sm text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-3">
+              What I want to teach you isn't just interview tricks. My job is to help you stay consistent, focused, and confident — even when progress feels slow or pressure builds. I'll make sure you can concentrate fully, feel the momentum of every problem you solve, and keep your motivation alive throughout the journey. That's what I'm here for.
             </p>
             <div className="flex justify-end">
               <button className="px-4 py-2 border border-[#1a1816] dark:border-[#f5f3ee] text-[#1a1816] dark:text-[#f5f3ee] text-xs font-medium">
