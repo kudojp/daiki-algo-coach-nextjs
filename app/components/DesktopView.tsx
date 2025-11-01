@@ -26,7 +26,7 @@ export default function DesktopView() {
                 Features
               </a>
               <a href="#problems" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
-                Problems
+                Offerings
               </a>
               <a href="#coach" className="text-[#5c5653] hover:text-[#1a1816] dark:text-[#a39c94] dark:hover:text-[#f5f3ee] transition-colors text-sm">
                 Coach
@@ -251,11 +251,20 @@ export default function DesktopView() {
                 Meet Daiki
               </h2>
               <p className="text-lg text-[#5c5653] dark:text-[#a39c94] leading-relaxed mb-8">
-                Daiki is a passionate algorithm enthusiast and a LeetCode Guardian—a prestigious badge awarded to users who
-                consistently rank in the top 5% of participants in LeetCode's weekly contests. This achievement signifies
-                exceptional skill in competitive programming and reflects years of dedicated practice, strong problem-solving
-                abilities, and consistent effort. Daiki is committed to helping others discover the elegance and joy of
-                algorithmic thinking through curated problems and a learning approach that values deep understanding.
+                Hi, I'm Daiki — your coach based in Tokyo, Japan.
+                <br />
+                I'm a passionate algorithm enthusiast and a LeetCode Guardian, a badge awarded to top performers in LeetCode's global weekly contests. Among them, I've ranked within the top 1.2% of participants worldwide.
+                <br />
+                <br />
+                My major in university was geophysics, not computer science — so I had to teach myself everything from algorithms to software engineering from scratch, through countless late nights of trial, error, and discovery.
+                <br />
+                <br />
+                That process taught me something invaluable: growth isn't about talent; it's about consistency, curiosity, passion, and the courage to keep going when things get tough — and above all, a deep love and dedication for the craft itself.
+                <br />
+                <br />
+                Now, I aim to share that mindset — helping others move beyond simply reaching an outcome, and to embrace the journey of curiosity, exploration, and growth itself.
+                <br />
+                Let's grow together, one problem at a time.
               </p>
               <div className="flex gap-4">
                 <a
